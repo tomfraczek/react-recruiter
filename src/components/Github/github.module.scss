@@ -4,10 +4,20 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-direction: column;
+
+    @include laptop{
+        flex-direction: row;   
+    }
 }
 
 .search__form{
     display: flex;
+    margin-top: 50px;
+
+    @include laptop{
+        margin-top: 0;
+    }
 }
 
 .not__found__message{

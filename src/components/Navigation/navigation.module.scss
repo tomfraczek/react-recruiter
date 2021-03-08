@@ -18,8 +18,18 @@
 .navi__links{
     display: flex;
     align-items: center;
+    padding:0;
 
     a{
+        margin-left: 40px;
+
+        &:first-of-type{
+            margin-left: 0;
+        }
+    
+        @include laptop{
+            margin-left: 40px;
+        }
         &:hover{
             text-decoration: none;
         }
@@ -27,7 +37,6 @@
 
     li{
         list-style-type: none;
-        margin-left: 40px;
         color: $company-dark;
     }
 }
