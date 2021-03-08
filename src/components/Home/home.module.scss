@@ -1,0 +1,29 @@
+@import '../../global/global-css.scss';
+
+.home{
+    text-align: center;
+
+    @include tablet{
+        text-align: initial;
+    }
+}
+
+.home__container{
+    margin-top:50px;
+    p{
+        &:first-of-type{
+            font-size: 23px;
+        }
+    }
+}
+
+.home__contact{
+    margin-top: 50px;
+    h3, p{
+        margin-bottom: 0;
+    }
+    
+    p{
+        margin-top:0;
+    }
+}

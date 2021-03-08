@@ -1,0 +1,19 @@
+@import '../../global/global-css.scss';
+
+.content__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search__form{
+    display: flex;
+}
+
+.not__found__message{
+    text-align: center;
+}
+
+.github__logo{
+    width: 150px;
+}

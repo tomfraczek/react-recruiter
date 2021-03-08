@@ -1,0 +1,52 @@
+@import '../../global/global-css.scss';
+
+.factorial{
+    text-align: center;
+
+    @include tablet{
+        text-align: initial;
+    }
+}
+
+.search__form{
+    display: flex;
+}
+
+.search__button{
+    &:hover{
+        border-left-color: #fff;
+    }
+}
+
+.factorial__description{
+    margin-top:50px;
+    margin-bottom: 0;
+}
+
+.result__container{
+    text-align: center;
+
+    p{
+        margin: 0;
+
+        &:first-of-type{
+            font-weight: 500;
+        }
+
+        &:last-of-type{
+            margin-bottom: 25px;
+            word-break: break-all;
+        }
+    }
+}
+
+.calc__history{
+    tbody{
+        display: flex;
+        flex-direction: column-reverse;
+
+        tr{
+            word-break: break-all;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+@import '../../global/global-css.scss';
+
+
+.commits__container{
+    padding: 25px 0;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    transform: translate(100%, 0);
+    transition: all ease 500ms;
+}
+
+.arrow__image{
+    width: 25px;
+    position: absolute;
+    right: 0;
+    top:60px;
+
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.show__commits{
+    transition: all ease 500ms;
+    transform: translate(0, 0);
+}

@@ -1,0 +1,40 @@
+.btn{
+    border: none;
+    padding: 0 15px;
+    border: 1px solid;
+    transition: all ease 100ms;
+
+    &:hover{
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
+
+.btn__dark{
+    background-color: $company-dark;
+    color: #fff;
+    border-color: $company-dark;
+
+    &:hover{
+        color: $company-dark;
+        background-color: #fff;
+    }
+}
+
+
+.btn__light{
+    background-color: #fff;
+    color: $company-dark;
+    border-color: $company-dark;
+
+    &:hover{
+        background-color: $company-dark;
+        color: #fff;
+    }
+}
+
+.link{
+    &.link__dark{
+        color: $company-dark;
+    }
+}

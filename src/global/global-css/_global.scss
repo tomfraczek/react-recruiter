@@ -1,0 +1,30 @@
+@import '../variables/structure';
+
+h1, h2, h3, h4, h5{
+  margin:0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 100%;
+  @include tablet {
+    width: $tablet-width;
+  }
+  @include laptop {
+    width: $laptop-width;
+  }
+  @include desktop {
+    width: $desktop-width;
+  }
+}
+

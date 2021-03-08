@@ -1,0 +1,30 @@
+@import '../../global/global-css.scss';
+
+.about__container{
+    text-align: center;
+    
+    @include tablet{
+        text-align: initial;
+    }
+    p{
+        margin-bottom: 0;
+    }
+
+    ol, ul{
+        margin-top:0;
+
+        li{
+            width: fit-content;
+            margin: auto;
+
+            @include tablet{
+                width:initial;
+                margin:initial;
+            }
+        }
+    }
+}
+
+.about__description{
+    margin-top:50px;
+}

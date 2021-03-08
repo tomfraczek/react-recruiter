@@ -1,0 +1,25 @@
+@import '../../global/global-css.scss';
+
+.content__container{
+    position: relative;
+    overflow: hidden;
+}
+
+.repo__container{
+    transition: all ease 500ms;
+    transform: translate(0, 0);
+    margin-top:45px;
+}
+
+.repos__hidden{
+    transition: all ease 500ms;
+    transform: translate(-100%, 0);
+}
+
+.table__lng{
+    display: none;
+
+    @include tablet{
+        display: table-cell;
+    }
+}

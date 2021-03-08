@@ -1,0 +1,24 @@
+@import './global-css.scss';
+
+.content__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.search__button{
+    &:hover{
+        border-left-color: #fff;
+    }
+}
+
+.search__input{
+    border-color: $company-dark;
+    width:270px;
+}
+
+.default__message__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
