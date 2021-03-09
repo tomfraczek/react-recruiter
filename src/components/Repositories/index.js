@@ -66,7 +66,7 @@ function Repositories({repos}) {
     </div>
 
       {commits ? 
-      <Commits hidden={display ? true  : false} commits={commits} />
+      <Commits commits={commits} />
       : null}
     
 </div>
